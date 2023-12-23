@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" modified="2023-12-23T20:26:53.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="IUPzPvydsPmxoUO2zOkr" version="22.1.11" type="device">
+  <diagram name="Страница — 1" id="p94cU17RBTBdPufWF0xh">
+    <mxGraphModel dx="1994" dy="1841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-1" target="ta_FHD9PBKfFCOiR7_9L-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-1" target="ta_FHD9PBKfFCOiR7_9L-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-1" target="ta_FHD9PBKfFCOiR7_9L-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="260" />
+              <mxPoint x="300" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-1" target="ta_FHD9PBKfFCOiR7_9L-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-1" target="ta_FHD9PBKfFCOiR7_9L-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="494" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-1" value="&lt;div&gt;Cinema manager&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-2" value="Авторизация в систему" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-3" value="Регистрация в системе" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-6" value="Редактирование фильмов в прокате" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-7" value="Создание фильма" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-8" value="Изменение названия" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="510" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-9" value="Изменение описания" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="520" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-10" value="Изменение длительности" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="490" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-11" value="Изменение цены билета" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="430" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-12" value="Редактирование сеансов" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-13" value="Создание сеанса" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="30" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-14" value="Изменение начала сеанса" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-15" value="Удаление фильма" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-16" value="Удаление сеанса" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="449" y="-10" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-17" value="Управление билетами" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-18" value="Просмотр доступных сеансов" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="140" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-19" value="Продажа билета на сеанс" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="230" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-20" value="Возврат билета на сеанс" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="320" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-21" value="Отметка пришедшего клиента на сеанс" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="390" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-24" value="&lt;h1&gt;Use-case diagram&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Author: Onar Shamaev&lt;br&gt;Group: BPI-227&lt;br&gt;Task: PHW-1&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="150" width="225" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-25" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-6" target="ta_FHD9PBKfFCOiR7_9L-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="380" as="sourcePoint" />
+            <mxPoint x="530" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-26" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-6" target="ta_FHD9PBKfFCOiR7_9L-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="480" as="sourcePoint" />
+            <mxPoint x="460" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-27" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-6" target="ta_FHD9PBKfFCOiR7_9L-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="330" as="sourcePoint" />
+            <mxPoint x="360" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-28" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-6" target="ta_FHD9PBKfFCOiR7_9L-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="460" as="sourcePoint" />
+            <mxPoint x="360" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-29" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-6" target="ta_FHD9PBKfFCOiR7_9L-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="350" as="sourcePoint" />
+            <mxPoint x="340" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-6" target="ta_FHD9PBKfFCOiR7_9L-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="360" as="sourcePoint" />
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-31" value="Ввод логина и пароля" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-33" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-2" target="ta_FHD9PBKfFCOiR7_9L-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="130" as="sourcePoint" />
+            <mxPoint x="440" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-34" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-3" target="ta_FHD9PBKfFCOiR7_9L-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="150" as="sourcePoint" />
+            <mxPoint x="470" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-35" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-12" target="ta_FHD9PBKfFCOiR7_9L-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="70" as="sourcePoint" />
+            <mxPoint x="610" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-36" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-12" target="ta_FHD9PBKfFCOiR7_9L-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="160" as="sourcePoint" />
+            <mxPoint x="550" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-37" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-12" target="ta_FHD9PBKfFCOiR7_9L-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="610" y="130" as="sourcePoint" />
+            <mxPoint x="770" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-38" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-17" target="ta_FHD9PBKfFCOiR7_9L-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="210" as="sourcePoint" />
+            <mxPoint x="690" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-39" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-17" target="ta_FHD9PBKfFCOiR7_9L-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="380" as="sourcePoint" />
+            <mxPoint x="600" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-40" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-17" target="ta_FHD9PBKfFCOiR7_9L-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="350" as="sourcePoint" />
+            <mxPoint x="760" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-41" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-17" target="ta_FHD9PBKfFCOiR7_9L-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="360" as="sourcePoint" />
+            <mxPoint x="700" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-42" value="Отображение зала: свободных и проданных мест" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="120" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ta_FHD9PBKfFCOiR7_9L-44" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="ta_FHD9PBKfFCOiR7_9L-42" target="ta_FHD9PBKfFCOiR7_9L-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="790" y="80" as="sourcePoint" />
+            <mxPoint x="950" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
