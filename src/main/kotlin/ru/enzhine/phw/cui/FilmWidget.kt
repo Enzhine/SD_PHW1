@@ -12,7 +12,12 @@ class FilmWidget(private val filmId: Long, private val dao: FilmDao, private val
             while(true){
                 print(preInp)
                 try {
-                    return readln().toLong()
+                    val read = readln().toLong()
+                    if(read < 0){
+                        println(" WRONG INPUT: negative number")
+                        continue
+                    }
+                    return read
                 }catch (_: NumberFormatException){
                     println(" WRONG INPUT")
                 }
@@ -22,7 +27,12 @@ class FilmWidget(private val filmId: Long, private val dao: FilmDao, private val
             while(true){
                 print(preInp)
                 try {
-                    return readln().toInt()
+                    val read = readln().toInt()
+                    if(read < 0){
+                        println(" WRONG INPUT: negative number")
+                        continue
+                    }
+                    return read
                 }catch (_: NumberFormatException){
                     println(" WRONG INPUT")
                 }
