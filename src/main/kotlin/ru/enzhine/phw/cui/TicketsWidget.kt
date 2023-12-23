@@ -14,18 +14,22 @@ class TicketsWidget(private val filmSessionDao: FilmSessionDao, private val film
 
     override fun run(): Boolean {
         while (true){
-            val sessions = filmSessionDao.listExisting()
+            var sessions = filmSessionDao.listExisting()
             if(sessions.isEmpty()){
-                println(" FAILURE: there are no film-sessions!")
+                println(" FAILURE: there are no film-sessions AT ALL!")
+                Thread.sleep(1000)
+                return true
+            }
+            sessions = sessions.filter { it.start.plusSeconds(it.film.length) >= LocalDateTime.now() }
+            if(sessions.isEmpty()){
+                println(" FAILURE: there are no AVAILABLE film-sessions!")
                 Thread.sleep(1000)
                 return true
             }
             println("[Managing tickets]")
             println(" Future or going film-sessions:")
             for(ses in sessions){
-                if(ses.start.plusSeconds(ses.film.length) >= LocalDateTime.now()){
-                    println(" #${ses.id} {start=${ses.start};filmTitle=${ses.film.title};...")
-                }
+                println(" #${ses.id} {start=${ses.start};filmTitle=${ses.film.title};...")
             }
             var fs: FilmSession?
             while(true){
